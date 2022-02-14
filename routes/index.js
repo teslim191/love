@@ -5,7 +5,7 @@ const router = express.Router();
 const message = require('../api/message')
 
 router.get('/', (req, res)=>{
-    res.status(200).json(message)
+    res.send('hello man')
 })
 
 
